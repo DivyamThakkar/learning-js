@@ -62,3 +62,7 @@ let userOne = {
 
 
 let userTwo = userOne
+userTwo.email = "payalthakkar899@gmail.com"
+console.table([userOne.email,userTwo.email]);
+
+//changes happen on both as the same value is provide to another variable instead of making a copy
