@@ -37,3 +37,4 @@ const url = "https://divyam/thakkar%20.com"
 const newUrl = url.replace('%20' , '-')
 console.log(newUrl)
 //look at split 
+
