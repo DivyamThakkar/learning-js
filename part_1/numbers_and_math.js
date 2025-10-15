@@ -19,7 +19,7 @@ console.log(Math);
 console.log(Math.abs(-4))
 console.log(Math.round(2.4))
 console.log(Math.ceil(4.2))
-console.log(Math.floor(4.7))
+console.log(Math.floor(4.7)) 
 // .min ,.max
 console.log(Math.random() )
 //can be mult to 10 and add 1
