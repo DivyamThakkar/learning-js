@@ -8,7 +8,7 @@ console.log(myArray)
 myArray.shift()
 console.log(myArray)
 console.log(myArray.includes(9)) //bool
-console.log(myArray.join()) //string
+console.log(myArray.join()) //string output
 
 //slice , splice
 console.log("A" , myArray)
