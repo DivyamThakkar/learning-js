@@ -29,3 +29,35 @@ console.log(obj3)
 //arr[1].key
 console.log(Object.keys(regularUser))
 console.log(regularUser.hasOwnProperty('logged'))
+
+
+
+
+//destructuring uses const {} declaration
+
+
+const course =  {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "chai"
+}
+// course.courseInstructor
+
+const {courseInstructor : instructor} = course
+
+// console.log(courseInstructor)
+console.log(instructor)
+
+
+
+//structure of json
+
+
+//key string and value string
+// {
+//         "name": "divyam",
+//         "coursename" : "chai",
+//         "price" : "0"
+
+// }
+
