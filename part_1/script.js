@@ -27,7 +27,7 @@
 // console.log(1 + "2");
 // console.log("1" + 2 + 2);
 // console.log(1 + 2 +"2");
-// // aage add hoga peeche concat
+// // aage add hoga peeche concat numbers
 // //ganda code
 
 // console.log("hello");
