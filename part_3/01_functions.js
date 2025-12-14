@@ -6,9 +6,12 @@ let a = Adder(10,5)
 console.log(a)
 
 function LoginMessage(username){
-    console.log(`${username} has just logged in`)
+    if(!username){
+        return "Username is undefined"
+    }
+    return (`${username} has just logged in`)
 }
 
-LoginMessage("Divyam")
-
+console.log(LoginMessage("Divyam"))
+console.log(LoginMessage())
 //upar parameter and andar argument
