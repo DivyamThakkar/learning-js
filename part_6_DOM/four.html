@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divyam Thakkar</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <ul class="language">
+        <li>javascript</li>
+    </ul>
+</body>
+<script>
+    function addLanguage(langName){
+       const li = document.createElement('li')
+       li.innerHTML = `${langName}`
+        document.querySelector(".language").appendChild(li)
+    }
+    addLanguage("python")
+    addLanguage("cpp")
+    addLanguage("ruby")
+
+    function optimisedLang(langName){
+        const li = document.createElement('li')
+        li.appendChild(document.createTextNode(`${langName}`)) //better one
+        document.querySelector(".language").appendChild(li)
+    }
+    optimisedLang("goLang")
+
+    //edit //naya bnao aur replace kro 
+
+    const secondLang = document.querySelector("li:nth-child(2)")
+    const li = document.createElement("li")
+    li.textContent = "Mojo"
+    secondLang.replaceWith(li)
+
+    //can be done with outerhtml as well
+
+    const lastChild = document.querySelector("li:last-child")
+    lastChild.remove()
+</script>
+</html>
